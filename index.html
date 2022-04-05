@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/media.css">
+
+  <title>Predict Age of Given name</title>
+</head>
+
+<body>
+  <header>
+    <h1>Prediction Machine</h1>
+  </header>
+  <div id="container">
+    <!--///////////////////////////////////////////////////////////////////////-->
+    <section id="first-section">
+      <div>
+        <h1>Give me name I`ll give you age</h1>
+      </div>
+      <div>
+        <input type="text" placeholder="Name">
+        <button>Predict</button>
+      </div>
+      <br>
+      <br>
+      <div class="img-spinner-error-ul">
+        <img id="spinner" src="/img/35.gif" alt="error opss....." style="display: none;">
+        <img id="error-img" src="/img/error.jpg" alt="uooooooooooo" style="display: none">
+        <div>
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+      <div>
+        <button id="reset-section1">Reset</button>
+      </div>
+    </section>
+    <!--///////////////////////////////////////////////////////////////////////-->
+    <section id="second-section">
+      <div>
+        <h1>Multiple Names</h1>
+      </div>
+      <div>
+        <input id="input2" type="text" placeholder="Name">
+        <button id="btn-add">+</button>
+        <button id="predict2">Predict</button>
+      </div>
+      <br>
+      <br>
+      <div class="img-spinner-error-ul">
+        <img id="spinner2" src="/img/35.gif" alt="error opss....." style="display: none;">
+        <img id="error-img2" src="/img/error.jpg" alt="uooooooooooo" style="display: none">
+        <div>
+          <ul id="ul2">
+
+          </ul>
+        </div>
+      </div>
+      <button id="reset-section2">Reset</button>
+    </section>
+    <!--///////////////////////////////////////////////////////////////////////-->
+    <section id="third-section">
+      <div>
+        <h1>Predicted Age By Country</h1>
+      </div>
+      <div>
+        <input id="input3" type="text" placeholder="Name">
+        <input id="country" type="text" placeholder="Country">
+      </div>
+      <br>
+      <br>
+      <div class="img-spinner-error-ul">
+        <img id="spinner3" src="/img/35.gif" alt="error opss....." style="display: none;">
+        <img id="error-img3" src="/img/error.jpg" alt="uooooooooooo" style="display: none">
+        <div>
+          <ul id="ul3">
+
+          </ul>
+        </div>
+      </div>
+      <div>
+        <button id="reset-section3">Reset</button>
+        <button id="predict3">Predict</button>
+      </div>
+
+
+    </section>
+  </div>
+  <footer>
+
+    &copy; Deyan Valkov
+
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

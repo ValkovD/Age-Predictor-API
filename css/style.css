@@ -1,0 +1,80 @@
+body {
+  /* background-image: url(/img/back_Image.jpg); */
+  background-color: aliceblue;
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+  display: grid;
+  justify-content: center;
+}
+
+header h1 {
+  padding: 10px;
+  background-color: rgba(187, 204, 164, 0.356);
+  border-radius: 5px;
+}
+
+input,
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+#btn-add {
+  width: 50px;
+  display: inline;
+}
+
+
+
+#first-section,
+#second-section,
+#third-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  /* border: 5px solid gray; */
+  /* background-color: rgba(204, 200, 164, 0.356); */
+  border-radius: 5px;
+  grid-auto-rows: minmax(50px, auto);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: rgba(204, 200, 164, 0.356);
+
+}
+
+#predict3 {
+  margin-bottom: 5px;
+}
+
+
+ul {
+  /* display: grid;
+  grid-auto-rows: minmax(50px, auto); */
+  list-style: none;
+  padding-left: 0px;
+}
+
+#reset-section1,
+#reset-section2 {
+  width: 365px;
+  background-color: rgba(93, 81, 81, 0.335);
+}
+
+#reset-section3 {
+  width: 150px;
+  height: 50px;
+  background-color: rgba(93, 81, 81, 0.335);
+}
